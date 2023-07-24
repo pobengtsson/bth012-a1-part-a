@@ -22,15 +22,7 @@
   },
   "homepage": "https://github.com/pobengtsson/bth012-a1-part-a#readme",
   "jest": {
-    "transform": {},
-    "roots": [
-      "<rootDir>/src/",
-      "<rootDir>/tests/"
-    ],
-    "modulePaths": [],
-    "moduleDirectories": [
-      "<rootDir>/src"
-    ]
+    "transform": {}
   },
   "devDependencies": {
     "eslint": "^8.45.0",
