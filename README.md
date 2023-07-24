@@ -1,2 +1,4 @@
 # bth012-a1-part-a
 The project template to use for BTH012 assignment 1 part a
+
+See course canvas for instructions on how to use this repo.

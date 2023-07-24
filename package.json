@@ -1,0 +1,39 @@
+{
+  "name": "bth012-a1-part-a",
+  "version": "1.0.0",
+  "description": "The project template to use for BTH012 Assignment 1 part A",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pobengtsson/bth012-a1-part-a.git"
+  },
+  "keywords": [
+    "bth012"
+  ],
+  "author": "Per-Olof Bengtsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pobengtsson/bth012-a1-part-a/issues"
+  },
+  "homepage": "https://github.com/pobengtsson/bth012-a1-part-a#readme",
+  "jest": {
+    "transform": {},
+    "roots": [
+      "<rootDir>/src/",
+      "<rootDir>/tests/"
+    ],
+    "modulePaths": [],
+    "moduleDirectories": [
+      "<rootDir>/src"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "jest": "^29.6.1"
+  }
+}
