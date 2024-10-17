@@ -2,6 +2,6 @@
  * as necessary to make your code structure more testable and
  * easy to understand */
 
-export function kalle() {
-   return 1
+export function kalle () {
+  return 1
 }

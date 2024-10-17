@@ -2,10 +2,10 @@
  * see necessary to make your code structure readable and
  * testable */
 
-import { kalle } from "."
+import { kalle } from '.'
 
 describe('will this work', () => {
-   it('just might', () => {
-      expect(kalle()).toEqual(1)
-   })
+  it('just might', () => {
+    expect(kalle()).toEqual(1)
+  })
 })
