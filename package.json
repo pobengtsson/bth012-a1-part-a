@@ -21,9 +21,6 @@
     "url": "https://github.com/pobengtsson/bth012-a1-part-a/issues"
   },
   "homepage": "https://github.com/pobengtsson/bth012-a1-part-a#readme",
-  "jest": {
-    "transform": {}
-  },
   "devDependencies": {
     "eslint": "^8.45.0",
     "eslint-config-standard": "^17.1.0",
