@@ -2,7 +2,7 @@
  * see necessary to make your code structure readable and
  * testable */
 
-import { kalle } from '.'
+import { kalle } from '../src/index'
 
 describe('will this work', () => {
   it('just might', () => {
