@@ -7,14 +7,14 @@ const rl = readline.createInterface({
 })
 
 // Wrap `rl.question` in a promise
-function askQuestion(query) {
+function askQuestion (query) {
   return new Promise((resolve) => {
     rl.question(query, resolve)
   })
 }
 
 // Using async/await to get input
-async function main() {
+async function main () {
   const name = await askQuestion('What is your name? ')
   console.log(`Hello, ${name}!`)
 
