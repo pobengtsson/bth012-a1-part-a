@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 })
 
 // Wrap `rl.question` in a promise
-export default function askQuestion (query) {
+export function askQuestion (query) {
   return new Promise((resolve) => {
     rl.question(query, resolve)
   })
