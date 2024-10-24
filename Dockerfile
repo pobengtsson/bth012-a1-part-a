@@ -7,4 +7,4 @@ RUN apt-get update && apt-get install -y git
 
 RUN git clone https://github.com/pobengtsson/bth012-a1-part-a.git .
 
-ENTRYPOINT ["node", "src/index.js"]
+ENTRYPOINT ["cat", "src/index.js"]
