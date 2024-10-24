@@ -9,5 +9,9 @@
 
 import askQuestion from "./askQuestion.js"
 
-const answer = await askQuestion('Can you see this message? Then type "yes" and press Enter.')
-console.log("You entered: ", answer)
+async function run () {
+  const answer = await askQuestion('Can you see this message? Then type "yes" and press Enter.')
+  console.log("You entered: ", answer)
+}
+
+run()
