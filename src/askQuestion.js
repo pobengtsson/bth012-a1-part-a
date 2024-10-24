@@ -12,3 +12,10 @@ export default function askQuestion (query) {
     rl.question(query, resolve)
   })
 }
+
+/** Call this function when you don't need to ask more questions.
+ * It will close the readline interface and allow the process to end.
+ */
+export function noMoreQuestions () {
+  rl.close()
+}
